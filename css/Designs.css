@@ -1,6 +1,6 @@
 	
 	body{
-		margin: 0;
+		padding: 0 20px;
 		background-color: #E59866;
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -10,8 +10,32 @@
     color: cornsilk;
     text-align: center;
 }
+h1{
+	font-size: 40px;
+}
+
+h3.margin{
+	margin-top: 0;
+}
+h1.margin{
+	margin-bottom: 0;
+}
+
 img{
 	border-radius: 170px;
 	width: 300px;
 	border: 20px solid orange;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+main img{
+	max-width: 100%;
+}
+
+a:hover{
+	color: #3498DB;
 }
